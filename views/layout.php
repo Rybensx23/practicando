@@ -33,6 +33,12 @@
                         </a>                        
                     </div>
 
+                    <div class="nav-item" >
+                        <a class="nav-link" href="/practicando/permisos">
+                            <i class="bi me-2"></i>Formulario de permisos
+                        </a>                        
+                    </div>
+
                 </ul> 
                 <div class="col-lg-1 d-grid mb-lg-0 mb-2">
                     <!-- Ruta relativa desde el archivo donde se incluye menu.php -->
