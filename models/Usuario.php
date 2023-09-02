@@ -22,7 +22,7 @@ class Usuario extends ActiveRecord
     $this->usuario_catalogo = $args['usuario_catalogo'] ?? '';
     $this->usuario_password = $args['usuario_password'] ?? '';
     $this->usuario_situacion = $args['usuario_situacion'] ?? '1';
-    $this->usuario_estado = $args['usuario_estado'] ?? 'P';
+    $this->usuario_estado = $args['usuario_estado'] ?? 'PENDIENTE';
     }
 
 }
