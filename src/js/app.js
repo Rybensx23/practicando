@@ -1,8 +1,15 @@
 import '../scss/app.scss';
 
 document.addEventListener('DOMContentLoaded', (e)=> {
-    const dropdown = document.querySelector('.dropdown-menu');
-    dropdown.style.margin = 0;
+
+    // comente esto para que dejara de salier el error de app.js:7-14 ya que el .dropdown-menu---
+    // o todos los elementos del dropdown no existen y es lo que da el error anterior.---
+
+    // const dropdown = document.querySelector('.dropdown-menu');
+    // console.log('dropdown:', dropdown);  // Añadido para depuración
+    // if (dropdown) {
+    // dropdown.style.margin = 0;
+    // }
 
 
     let items = document.querySelectorAll('.nav-link')
@@ -15,10 +22,7 @@ document.addEventListener('DOMContentLoaded', (e)=> {
         }
     });
 
-
 })
-
-
 
 document.onreadystatechange = () => {
     switch (document.readyState) {
