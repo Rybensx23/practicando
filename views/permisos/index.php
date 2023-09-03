@@ -21,7 +21,7 @@
                 <select name="permiso_rol" id="permiso_rol" class="form-control">
                     <option value="">Seleccione...</option>
                     <?php foreach($roles as $rol) : ?>
-                        <option value="<?= $rol['rol_id'] ?>"><?= $usuario['rol_nombre'] ?></option>
+                        <option value="<?= $rol['rol_id'] ?>"><?= $rol['rol_nombre'] ?></option>
                         <?php endforeach ?>
                 </select>
             </div>
